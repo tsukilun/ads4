@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+docs/terminal_capture/
+ADS_Assignment 4.docx
+scripts/

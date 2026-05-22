@@ -1,0 +1,27 @@
+Graph Traversal and Representation System
+=================================================
+
+Graph Structure Output (Small Graph)
+V0: [V1, V3, V5]
+V1: [V0, V2]
+V2: [V1, V3]
+V3: [V2, V4, V0, V6]
+V4: [V3, V5]
+V5: [V4, V6, V0]
+V6: [V5, V7, V3, V9]
+V7: [V6, V8]
+V8: [V7, V9]
+V9: [V8, V6]
+
+BFS Traversal Output
+V0 -> V1 -> V3 -> V5 -> V2 -> V4 -> V6 -> V7 -> V9 -> V8
+
+DFS Traversal Output
+V0 -> V1 -> V2 -> V3 -> V4 -> V5 -> V6 -> V7 -> V8 -> V9
+
+Performance Results
+Size | Edges | BFS Time (ns) | DFS Time (ns)
+-----|-------|---------------|--------------
+  10 |    26 |         10800 |        11100
+  30 |    86 |         17400 |        19700
+ 100 |   302 |         60100 |        53600
