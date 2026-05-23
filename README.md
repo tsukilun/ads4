@@ -30,8 +30,24 @@ ads4/
 ├── docs/
 │   ├── run_output.txt
 │   └── screenshots/
+├── bonus/
+│   ├── vertex.py
+│   ├── edge.py
+│   ├── weighted_graph.py
+│   ├── main.py
+│   └── README.md
 ├── README.md
 └── .gitignore
+```
+
+## Bonus Task
+
+The bonus task is implemented separately in the `bonus/` folder. It adds weighted edges and implements Dijkstra's algorithm using a simple loop-based approach.
+
+Run it with:
+
+```bash
+python bonus/main.py
 ```
 
 ## Class Descriptions
